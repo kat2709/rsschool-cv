@@ -17,7 +17,7 @@ I am a beginner frontend developer. I started to learn programming one year ago.
 * CSS
 * JavaScpipt
 
-## Cod examples
+## Code examples
 ```javascpipt
 function solution(str, ending){
   let m = str.length;
@@ -30,11 +30,11 @@ console.log(conversation, lion) //returns false
 
 ## Education
 * **Belarusian National Technical University**,
-Building Construction Technology, Engineer
-Activities and societies: I've taken part in scientific conferences in mathematics. I had a scientific work on soil mechanics, which was published and submitted to the BNTU University repository. I've taken part in chess competition.
+  Building Construction Technology, Engineer
+  Activities and societies: I've taken part in scientific conferences in mathematics. I had a scientific work on soil mechanics, which was published and submitted to the BNTU University repository. I've taken part in chess competition.
 
 
-## My progects
+## My projects
 * [clock app](https://github.com/kat2709/clock-app)
 * [age calculator](https://github.com/kat2709/age-calculator)
 
