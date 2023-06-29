@@ -2,7 +2,7 @@
 
 ## Contact
 * Location: Lithuania, Klaipeda
-* Phone: +37533 692-38-45
+* Phone: +375336923845
 * E-mail: 6923845@mail.ru
 * GitHub: kat2709
 * Telegram: Katerina Rubchanka
@@ -30,7 +30,9 @@ console.log(conversation, lion) //returns false
 
 ## Education
 * **Belarusian National Technical University**,
+
   Building Construction Technology, Engineer
+
   Activities and societies: I've taken part in scientific conferences in mathematics. I had a scientific work on soil mechanics, which was published and submitted to the BNTU University repository. I've taken part in chess competition.
 
 
@@ -39,6 +41,6 @@ console.log(conversation, lion) //returns false
 * [age calculator](https://github.com/kat2709/age-calculator)
 
 ## Languages
-* Russian(native)
-* English A2+
-* Polish(A2)
+* Russian (native)
+* English (A2+)
+* Polish (A2)
