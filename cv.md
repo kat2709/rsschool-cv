@@ -9,7 +9,7 @@
 
 ## About me
 
-I am a beginner frontend developer. I started to learn programming one year ago. I have basic knowledge of HTML, CSS, JavaScript. I have an account on codewars and solve problems in my free time. I can look at my projects on my GitHub. I like learning programming and I am very motivated by interesting tasks and I am looking for a chance to develop my skills. 
+I am a beginner frontend developer. I started to learn programming one year ago. I have basic knowledge of HTML, CSS, JavaScript. I have an account on codewars and solve problems in my free time. I like learning programming and I am very motivated by interesting tasks and I am looking for a chance to develop my skills. Look at my projects on my GitHub. 
 
 
 ## Skills
