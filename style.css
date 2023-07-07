@@ -50,7 +50,7 @@ header {
   text-transform: uppercase;
 }
 
-.navigation ul li a:hover{
+.navigation ul li a:hover {
   color: rgb(183, 107, 37);
 }
 
@@ -201,7 +201,7 @@ h4 {
   border-bottom: 2px solid rgb(120, 114, 114);
 }
 
-.code-box code{
+.code-box code {
   font-size: 18px;
 }
 
@@ -226,7 +226,7 @@ h4 {
   cursor: pointer;
 }
 
-.projects-list img:hover{
+.projects-list img:hover {
   border: 5px solid rgb(183, 107, 37);
 }
 
@@ -245,13 +245,13 @@ footer {
   height: 50px;
 }
 
-footer img{
+footer img {
   cursor: pointer;
 }
 
-footer img:hover{
-background-color: rgb(248, 219, 169);
-border-radius: 10px;
+footer img:hover {
+  background-color: rgb(248, 219, 169);
+  border-radius: 10px;
 }
 
 footer p {
