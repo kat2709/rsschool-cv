@@ -1,10 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#about">about me</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#code">code</a></li>
+          <li><a href="#projects">my projects</a></li>
+        </ul>
+      </nav>
+      <div class="personal">
+        <div class="avatar">
+          <img src="./assets/image/photo.jpg" alt="avatar">
+        </div>
+        <div class="personal-info">
+          <h1>katerina rubchanka</h1>
+          <div class="line"></div>
+          <h3>aspiring frontend deleloper</h3>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="about" class="about-me">
+        <h2>about me</h2>
+        <div class="about-box">
+          <div class="contacts">
+            <ul class="contact-list">
+              <li>
+                <img src="./assets/icons/location.png" alt="location-icon">
+                <p>Lithuania,Klaipeda</p>
+              </li>
+              <li>
+                <img src="./assets/icons/phone.png" alt="phone-icon">
+                <p>+375336923845</p>
+              </li>
+              <li>
+                <img src="./assets/icons/github.png" alt="github-icon">
+                <p>kat2709</p>
+              </li>
+              <li>
+                <img src="./assets/icons/mail.png" alt="mail-icon">
+                <p>6923845@mail.ru</p>
+              </li>
+            </ul>
+          </div>
+          <div class="about-text">
+            <p>
+              Hi! I am an aspiring frontend developer. I started to learn
+              programming one year ago. I have basic knowledge of HTML, CSS,
+              JavaScript, Git&GitHub. I have an account on codewars and solve
+              problems in my free time. I am very motivated by interesting tasks
+              and I am looking for a chance to develop my skills. Look at all my
+              projects on my GitHub.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="education" class="education-box">
+        <h2>education</h2>
+        <h3>belarusian national technical university</h3>
+        <h4>building construction technology, engineer</h4>
+        <p>
+          Activities and societies: I've taken part in scientific conferences in
+          mathematics. I had a scientific work on soil mechanics, which was
+          published and submitted to the BNTU University repository. I've taken
+          part in chess competition.
+        </p>
+        <h3>languages</h3>
+        <ul class="languages">
+          <li>russian native</li>
+          <li>english a2+</li>
+          <li>polish a2</li>
+        </ul>
+        <h3>courses</h3>
+        <ul class="courses">
+          <li>freeCodeCamp</li>
+          <li>the rolling scopes pre-school, 2023</li>
+        </ul>
+      </div>
+      <div id="skills" class="skills-box">
+        <h2>skills</h2>
+        <ul class="skills-list">
+          <li>
+            <img src="./assets/icons/html-logo.png" alt="html-icon">
+            <p>html</p>
+          </li>
+          <li>
+            <img src="./assets/icons/css-logo.png" alt="css-icon">
+            <p>css</p>
+          </li>
+          <li>
+            <img src="./assets/icons/javascript-logo.png" alt="js-icon">
+            <p>javascript</p>
+          </li>
+          <li>
+            <img src="./assets/icons/git-logo.png" alt="git-icon">
+            <p>git, github</p>
+          </li>
+        </ul>
+      </div>
+      <div id="code" class="code-box">
+        <h2>code example</h2>
+        <pre>
+        <code>
+          function solution(str, ending){
+            let m = str.length;
+            let n = ending.length;
+            return ending === str.slice(m - n, str.length)
+            }
+          console.log(camel, el) //returns true
+          console.log(conversation, lion) //returns false
+        </code>
+      </pre>
+      </div>
+      <div id="projects" class="projects-box">
+        <h2>my projects</h2>
+        <div class="projects-list">
+          <a
+            href="https://kat2709.github.io/clock-app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/image/clock-app.jpg" alt="clock-app">
+          </a>
+
+          <a
+            href="https://kat2709.github.io/age-calculator/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/image/age-calculator.jpg" alt="age-calculator">
+          </a>
+
+          <a
+            href="https://kat2709.github.io/tip-calculator/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/image/tip-calculator.jpg" alt="tip-calculator">
+          </a>
+
+          <a
+            href="https://kat2709.github.io/rating-component/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/image/rating-component.jpg"
+              alt="rating-component">
+          </a>
+
+          <a
+            href="https://kat2709.github.io/grocery-list/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/image/grocery-list.jpg" alt="grocery-list">
+          </a>
+
+          <a
+            href="https://kat2709.github.io/loopstudious-landing-page/#"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/image/loop-studious.jpg" alt="loop-studious">
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <a
+        href="https://github.com/kat2709/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="./assets/icons/github.png" alt="git-logo">
+      </a>
+      <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer">
+        <img class="rs-logo" src="./assets/logo/rs_school_js.svg" alt="logo">
+      </a>
+      <p>2023</p>
+    </footer>
+  </body>
 </html>
