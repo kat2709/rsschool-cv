@@ -1,5 +1,5 @@
 # **Katerina Rubchanka**
-![](./assets/image/photo.jpg)
+![](./assets/image/markdown-photo.jpg)
 
 ## Contact
 * Location: Lithuania, Klaipeda
