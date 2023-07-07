@@ -19,7 +19,7 @@ body {
 
 header {
   width: 700px;
-  background-color: rgb(232, 229, 226);
+  background-color: rgb(249, 246, 241);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,6 +48,10 @@ header {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.navigation ul li a:hover{
+  color: rgb(183, 107, 37);
 }
 
 .personal {
@@ -219,20 +223,35 @@ h4 {
   background-size: contain;
   margin: 10px;
   border: 3px solid rgb(120, 114, 114);
+  cursor: pointer;
+}
+
+.projects-list img:hover{
+  border: 5px solid rgb(183, 107, 37);
 }
 
 footer {
+  width: 700px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px;
   border-bottom: 2px solid rgb(120, 114, 114);
-  background-color: rgb(255, 253, 237);
+  background-color: rgb(249, 235, 210);
 }
 
 .rs-logo {
   width: 150px;
   height: 50px;
+}
+
+footer img{
+  cursor: pointer;
+}
+
+footer img:hover{
+background-color: rgb(248, 219, 169);
+border-radius: 10px;
 }
 
 footer p {
