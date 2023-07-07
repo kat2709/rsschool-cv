@@ -7,7 +7,10 @@
 }
 
 body {
-  background-color: black;
+  background-image: url(./assets/image/background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgb(208, 187, 159); */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -16,7 +19,7 @@ body {
 
 header {
   width: 700px;
-  background-color: rgb(255, 251, 247);
+  background-color: rgb(232, 229, 226);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,22 +28,22 @@ header {
   border-bottom: 2px solid rgb(120, 114, 114);
 }
 
-.navigation {
+.navigation ul {
   height: 30px;
   width: 700px;
-  background: rgb(255, 251, 247);
+  background: rgb(249, 246, 241);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   border-bottom: 2px solid rgb(120, 114, 114);
 }
 
-.navigation li {
+.navigation ul li {
   display: flex;
   align-items: center;
 }
 
-.navigation li a {
+.navigation ul li a {
   color: rgb(62, 47, 47);
   font-size: 16px;
   font-weight: bold;
@@ -83,7 +86,7 @@ h3 {
 
 main {
   width: 700px;
-  background-color: rgb(252, 251, 251);
+  background-color: rgb(255, 251, 247);
 }
 
 .about-me {
@@ -138,50 +141,50 @@ p {
   color: rgb(38, 33, 33);
 }
 
-.education-box{
+.education-box {
   padding: 10px 20px;
   border-bottom: 2px solid rgb(120, 114, 114);
 }
 
-h4{
+h4 {
   margin-top: 5px;
   text-transform: capitalize;
 }
 
-.education-box p{
-margin-top: 10px;
+.education-box p {
+  margin-top: 10px;
 }
 
-.education-box ul{
+.education-box ul {
   padding: 10px;
 }
 
-.languages li{
+.languages li {
   list-style-type: square;
   text-transform: capitalize;
   color: rgb(38, 33, 33);
   font-weight: bold;
 }
 
-.courses li{
+.courses li {
   list-style-type: circle;
   text-transform: capitalize;
   color: rgb(38, 33, 33);
   font-weight: bold;
 }
 
-.skills-box{
+.skills-box {
   padding: 10px;
   border-bottom: 2px solid rgb(120, 114, 114);
 }
 
-.skills-list li{
+.skills-list li {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
 
-.skills-list li p{
+.skills-list li p {
   font-size: 16px;
   text-transform: uppercase;
   color: rgb(57, 42, 42);
@@ -189,6 +192,51 @@ margin-top: 10px;
   font-weight: bold;
 }
 
-.code-box{
+.code-box {
   padding: 10px;
+  border-bottom: 2px solid rgb(120, 114, 114);
+}
+
+.code-box code{
+  font-size: 18px;
+}
+
+.projects-box {
+  padding: 10px;
+  border-bottom: 2px solid rgb(120, 114, 114);
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.projects-list img {
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  margin: 10px;
+  border: 3px solid rgb(120, 114, 114);
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid rgb(120, 114, 114);
+  background-color: rgb(255, 253, 237);
+}
+
+.rs-logo {
+  width: 150px;
+  height: 50px;
+}
+
+footer p {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(38, 33, 33);
 }

@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="./style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
       <nav class="navigation">
         <ul>
-        <li><a href="#about">about me</a></li>
-        <li><a href="#education">education</a></li>
-        <li><a href="#skills">skills</a></li>
-        <li><a href="#code">code</a></li>
-        <li><a href="#projects">my projects</a></li>
-      </ul>
+          <li><a href="#about">about me</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#code">code</a></li>
+          <li><a href="#projects">my projects</a></li>
+        </ul>
       </nav>
       <div class="personal">
         <div class="avatar">
-          <img src="./assets/image/photo.jpg" alt="avatar">
+          <img src="./assets/image/photo.jpg" alt="avatar" />
         </div>
         <div class="personal-info">
           <h1>katerina rubchanka</h1>
@@ -36,23 +36,23 @@
           <div class="contacts">
             <ul class="contact-list">
               <li>
-                <img src="./assets/icons/location.png" alt="location-icon">
+                <img src="./assets/icons/location.png" alt="location-icon" />
                 <p>Lithuania,Klaipeda</p>
               </li>
               <li>
-                <img src="./assets/icons/phone.png" alt="phone-icon">
+                <img src="./assets/icons/phone.png" alt="phone-icon" />
                 <p>+375336923845</p>
               </li>
               <li>
-                <img src="./assets/icons/github.png" alt="github-icon">
+                <img src="./assets/icons/github.png" alt="github-icon" />
                 <p>kat2709</p>
               </li>
               <li>
-                <img src="./assets/icons/mail.png" alt="mail-icon">
+                <img src="./assets/icons/mail.png" alt="mail-icon" />
                 <p>6923845@mail.ru</p>
               </li>
               <li>
-                <img src="./assets/icons/telegram.png" alt="telegram-icon">
+                <img src="./assets/icons/telegram.png" alt="telegram-icon" />
                 <p>+375336923845</p>
               </li>
             </ul>
@@ -61,10 +61,10 @@
             <p>
               Hi! I am an aspiring frontend developer. I started to learn
               programming one year ago. I have basic knowledge of HTML, CSS,
-              JavaScript, Git&GitHub. I have an account on codewars and solve problems
-              in my free time. I like learning programming and very motivated by
-              interesting tasks and I am looking for a chance to develop my
-              skills. Look at all my projects on my GitHub.
+              JavaScript, Git&GitHub. I have an account on codewars and solve
+              problems in my free time. I like learning programming and very
+              motivated by interesting tasks and I am looking for a chance to
+              develop my skills. Look at all my projects on my GitHub.
             </p>
           </div>
         </div>
@@ -95,27 +95,53 @@
         <h2>skills</h2>
         <ul class="skills-list">
           <li>
-            <img src="./assets/icons/html-logo.png" alt="html-icon">
+            <img src="./assets/icons/html-logo.png" alt="html-icon" />
             <p>html</p>
           </li>
           <li>
-            <img src="./assets/icons/css-logo.png" alt="css-icon">
+            <img src="./assets/icons/css-logo.png" alt="css-icon" />
             <p>css</p>
           </li>
           <li>
-            <img src="./assets/icons/javascript-logo.png" alt="js-icon">
+            <img src="./assets/icons/javascript-logo.png" alt="js-icon" />
             <p>javascript</p>
           </li>
           <li>
-            <img src="./assets/icons/git-logo.png" alt="git-icon">
+            <img src="./assets/icons/git-logo.png" alt="git-icon" />
             <p>git, github</p>
           </li>
         </ul>
       </div>
       <div id="code" class="code-box">
         <h2>code example</h2>
-
+        <pre>
+        <code>
+          function solution(str, ending){
+            let m = str.length;
+            let n = ending.length;
+            return ending === str.slice(m - n, str.length)
+            }
+          console.log(camel, el) //returns true
+          console.log(conversation, lion) //returns false
+        </code>
+      </pre>
       </div>
+      <div id="projects" class="projects-box">
+        <h2>my projects</h2>
+        <div class="projects-list">
+          <img src="./assets/image/clock-app.jpg" alt="clock-app" />
+          <img src="./assets/image/age-calculator.jpg" alt="clock-app" />
+          <img src="./assets/image/tip-calculator.jpg" alt="clock-app" />
+          <img src="./assets/image/rating-component.jpg" alt="clock-app" />
+          <img src="./assets/image/grocery-list.jpg" alt="clock-app" />
+          <img src="./assets/image/loop-studious.jpg" alt="clock-app" />
+        </div>
+      </div>
+      <footer>
+        <img src="./assets/icons/github.png" alt="git-logo" />
+        <img class="rs-logo" src="./assets/logo/rs_school_js.svg" alt="logo" />
+        <p>2023</p>
+      </footer>
     </main>
   </body>
 </html>
